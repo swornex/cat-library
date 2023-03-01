@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import "../assets/css/App.css";
 import CardList from "./CardList";
 import Search from "./Search";
 

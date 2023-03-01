@@ -1,7 +1,7 @@
 const Card = ({ className, name, email, id }) => {
     return (
         <div className={`card ${className}`}>
-            <div>
+            <div className="img-wrapper">
                 <img
                     className="img"
                     src={`https://robohash.org/${id}?set=set4&size=180x180`}
